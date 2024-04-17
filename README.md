@@ -19,7 +19,7 @@ Capable of backtesting strategies locally and trading them in real-time via your
 algo-trader is written in Python, and its current stack composes of:
 
 1. MongoDB as a backend data store for backtesting strategies
-2. [tulipy](https://github.com/codeliveyou/tulipy) - Python bindings for [Tulip Indicators](https://tulipindicators.org/).
+2. [tulipy](https://github.com/TulipCharts/tulipy) - Python bindings for [Tulip Indicators](https://tulipindicators.org/).
    Used to provide technical indicators calculations.
 3. ib_client (Optional) - Python library to communicate with Interactive Brokers gateway. Only needed if you plan on
    doing real trading via IB.
